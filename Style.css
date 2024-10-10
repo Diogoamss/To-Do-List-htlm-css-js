@@ -1,0 +1,85 @@
+:root{
+
+    --color-green: rgb(103, 195, 80);
+    --color-green2: rgb(66, 132, 50);
+}
+
+body{
+    
+    height: 100%;
+    background: linear-gradient(63deg, #0E0A1B 21.05%, #432E81 95.82%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantém o fundo fixo na rolagem */
+    background-size: cover; /* Garante que o gradiente ocupe toda a área */
+    margin: 0;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+header{
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Red Hat Display", sans-serif;
+    size: 20pt;
+    font-size: 96px;
+    font-weight: 400;
+    background: linear-gradient(90deg, #E05477 0%, #3A49EC 47%, #48FBC2 89.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+section{
+
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-family: "Red Hat Display", sans-serif;
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    
+    background: linear-gradient(219deg, rgba(139, 123, 185, 0.17) 10.4%, rgba(81, 75, 101, 0.17) 90.31%);
+   
+
+}
+
+
+h3{
+
+    font-family: "Red Hat Display", sans-serif;    
+    color: white;
+    font-weight: 400;
+}
+
+
+footer{
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+    font-weight: 300;
+    color: white;
+}
+
+.insputs{
+
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
