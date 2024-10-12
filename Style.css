@@ -50,14 +50,21 @@ section{
     transform: translate(-50%);
     font-family: "Red Hat Display", sans-serif;
     width: 600px;
-    height: 550px;
+    min-height: 550px;
+    max-height: auto;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     color: white;
 
     
-    background: linear-gradient(219deg, rgba(139, 123, 185, 0.17) 10.4%, rgba(81, 75, 101, 0.17) 90.31%);
+        /* From https://css.glass */
+    background: rgba(65, 29, 90, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(65, 29, 90, 0.13);
    
 
 }
